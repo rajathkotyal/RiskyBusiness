@@ -1,7 +1,7 @@
 # RiskyBusiness
 A Python Library containing various functions to analyse the risk of a business.
 
-Current Stage : Development
+### Current Stage : Development
 
 ## The functions as of now include :
 1. Sharpe Ratio
@@ -12,7 +12,8 @@ Current Stage : Development
 
 ## Installation  
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install riskybusiness
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install riskybusiness.
+
 pypi URL : https://pypi.org/project/riskybusiness/
 
 ```bash
