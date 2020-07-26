@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib
 
-sample = pd.DataFrame({"BLUE": [8.70, 8.91, 8.71, 8.43, 8.73],
-                       "ORANGE": [10.66, 11.08, 10.71, 11.59, 12.11]})
+'''sample = pd.DataFrame({"BLUE": [8.70, 8.91, 8.71, 8.43, 8.73],
+                       "ORANGE": [10.66, 11.08, 10.71, 11.59, 12.11]})'''
 
 port = pd.read_csv('/Users/rajath/Downloads/pf.csv',header=0, index_col=0, parse_dates=True, na_values=-99.99)
 cols = ['Lo 10', 'Hi 10']
