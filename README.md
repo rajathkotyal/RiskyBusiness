@@ -1,7 +1,7 @@
 # RiskyBusiness
 A Python Library containing various functions to analyse the risk of a business.
 
-### Current Stage : Development
+_Current Stage : Development_
 
 ## The functions as of now include :
 1. Sharpe Ratio
@@ -30,7 +30,7 @@ rb.FunctionName(dataset = Your_Dataset)
 
 A sample program to load data is displayed in risky.py.
 
-Clone the repository to run :
+> Clone the repository to run :
 ```bash
 > cd cloned_directory
 > python3 risky.py
