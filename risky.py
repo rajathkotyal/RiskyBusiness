@@ -1,4 +1,4 @@
-import init
+import temp
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -11,12 +11,12 @@ cols = ['Lo 10', 'Hi 10']
 rets= port[cols]
 rets.index = pd.to_datetime(rets.index, format="%Y%m")
 
-init.returns(dataset = rets)
-init.product(dataset = rets)
-init.month_annualize(month_risk = 0.01)
-init.annual_volatility(dataset = rets)
+temp.returns(dataset = rets)
+temp.product(dataset = rets)
+temp.month_annualize(month_risk = 0.01)
+temp.annual_volatility(dataset = rets)
 
-init.returns_month(dataset = rets)
-init.annualized_ret(dataset = rets)
-init.sharpe(dataset = rets  , riskfree_rate = 0.03)
-init.drawdown(rets['Hi 10'])
+temp.returns_month(dataset = rets)
+temp.annualized_ret(dataset = rets)
+temp.sharpe(dataset = rets  , riskfree_rate = 0.03)
+temp.drawdown(rets['Hi 10'])
