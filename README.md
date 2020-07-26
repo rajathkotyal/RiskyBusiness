@@ -28,7 +28,14 @@ rb.FunctionName(dataset = Your_Dataset)
 ```
 > Make sure the dataset is loaded using pandas with the necessary columns.
 
-> A sample program to load data is displayed in risky.py
+A sample program to load data is displayed in risky.py.
+
+Clone the repository to run :
+```bash
+> cd cloned_directory
+> python3 risky.py
+```
+> This will output a sample of all the functions present in the library.
 
 ## Contributing 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
