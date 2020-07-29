@@ -11,6 +11,8 @@
 8. CVaR - Historic
 9. VaR Comparison Plot
 
+**Important** : Read the DOCUMENTATION.md file before implementing any of the functions.
+
 ## Installation  
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install riskybusiness
@@ -27,14 +29,10 @@ rb.FunctionName(dataset = Your_Dataset)
 ```
 > Make sure the dataset is loaded using pandas with the necessary columns.
 
-A sample program to load data is displayed in risky.py
->To run clone the repository
-```python
-> cd cloned_directory
-> python3 risky.py
-```
+A sample program using all the functions is displayed in risky.ipynb
+> Open using Jupyter NB or Google Colab
 
-This will output a sample of all the functions present in the library.
+This file contains the output samples of all the functions present in the library.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
