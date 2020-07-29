@@ -24,7 +24,8 @@ import riskybusiness as rb
 
 ## List of Functions available in the Risky Business Library :
 
-1.
+
+### 1.
 ```python
 rb.annual_volatility(dataset)
 ```
@@ -34,7 +35,9 @@ Returns the Annual Volatility of each column in the Dataset.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-2.
+
+
+### 2.
 ```python
 rb.compoundperc(dataset)
 ```
@@ -45,7 +48,8 @@ Returns the Compound percentage of each column in the Dataset.
 dataset - Name of the dataset you imported.
 
 
-3.
+
+### 3.
 ```python
 rb.month_annualize(month_risk)
 ```
@@ -56,7 +60,8 @@ Returns the annualized return of each column in the Dataset given the monthly ri
 month_risk - the monthly risk factor.
 
 
-4.
+
+### 4.
 ```python
 rb.annual_volatility(dataset)
 ```
@@ -67,7 +72,8 @@ Returns the annualized volatility of each column in the Dataset.
 dataset - Name of the dataset you imported.
 
 
-5.
+
+### 5.
 ```python
 rb.returns_month(dataset)
 ```
@@ -78,7 +84,8 @@ Returns the Monthly returns of each column in an Annual Dataset.
 dataset - Name of the dataset you imported.
 
 
-6.
+
+### 6.
 ```python
 rb.annualized_ret(dataset)
 ```
@@ -89,7 +96,8 @@ Returns the Annualized returns of each column in a Monthly Dataset.
 dataset - Name of the dataset you imported.
 
 
-7.
+
+### 7.
 ```python
 rb.sharpe(dataset,riskfree_rate):
 ```
@@ -101,7 +109,8 @@ dataset - Name of the dataset you imported.
 riskfree_rate - the riskfree_rate of your country.
 
 
-8.
+
+### 8.
 ```python
 rb.get_date(dataset):
 ```
@@ -113,7 +122,8 @@ Returns the dataset with yyyy-mm-dd format.
 dataset - Name of the dataset you imported.
 
 
-9.
+
+### 9.
 ```python
 rb.drawdown(dataset)
 ```
@@ -125,7 +135,8 @@ Computes & returns a Dataframe that contains Wealth index , Previous Peaks & Dra
 dataset - Name of the dataset you imported.
 
 
-10.
+
+### 10.
 ```python
 rb.skewness(dataset)
 ```
@@ -136,7 +147,8 @@ Computes & returns the skewness of each column.
 dataset - Name of the dataset you imported.
 
 
-11.
+
+### 11.
 ```python
 rb.kurtosis(dataset)
 ```
@@ -147,7 +159,8 @@ Computes & returns the kurtosis of each column.
 dataset - Name of the dataset you imported.
 
 
-12.
+
+### 12.
 ```python
 rb.var_historic(dataset)
 ```
@@ -160,7 +173,8 @@ fall below that number, and the (100-level) percent are above.
 dataset - Name of the dataset you imported.
 
 
-13.
+
+### 13.
 ```python
 rb.cvar_historic(dataset)
 ```
@@ -171,7 +185,8 @@ Computes & Returns the Conditional VaR of a Series or DataFrame.
 dataset - Name of the dataset you imported.
 
 
-14.
+
+### 14.
 ```python
 rb.var_gaussian(dataset)
 ```
@@ -182,7 +197,8 @@ Computes & Returns the Parametric Gauusian VaR of a Series or DataFrame
 dataset - Name of the dataset you imported.
 
 
-15.
+
+### 15.
 ```python
 rb.var_fisher(dataset)
 ```
@@ -193,7 +209,8 @@ The VaR is returned using the Cornish-Fisher modification
 dataset - Name of the dataset you imported.
 
 
-16.
+
+### 16.
 ```python
 rb.plotvar(dataset)
 ```
