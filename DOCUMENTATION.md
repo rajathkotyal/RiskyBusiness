@@ -35,7 +35,7 @@ Returns the Annual Volatility of each column in the Dataset.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 2.
 ```python
@@ -47,7 +47,7 @@ Returns the Compound percentage of each column in the Dataset.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 3.
 ```python
@@ -59,7 +59,7 @@ Returns the annualized return of each column in the Dataset given the monthly ri
 ### Parameters
 month_risk - the monthly risk factor.
 
-
+--------------------------------------------------------------------
 
 ### 4.
 ```python
@@ -71,7 +71,7 @@ Returns the annualized volatility of each column in the Dataset.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 5.
 ```python
@@ -83,7 +83,7 @@ Returns the Monthly returns of each column in an Annual Dataset.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 6.
 ```python
@@ -95,7 +95,7 @@ Returns the Annualized returns of each column in a Monthly Dataset.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 7.
 ```python
@@ -108,7 +108,7 @@ Returns the Annualized returns of each column in a Monthly Dataset.
 dataset - Name of the dataset you imported.
 riskfree_rate - the riskfree_rate of your country.
 
-
+--------------------------------------------------------------------
 
 ### 8.
 ```python
@@ -121,7 +121,7 @@ Returns the dataset with yyyy-mm-dd format.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 9.
 ```python
@@ -134,7 +134,7 @@ Computes & returns a Dataframe that contains Wealth index , Previous Peaks & Dra
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 10.
 ```python
@@ -146,7 +146,7 @@ Computes & returns the skewness of each column.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 11.
 ```python
@@ -158,7 +158,7 @@ Computes & returns the kurtosis of each column.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 12.
 ```python
@@ -172,7 +172,7 @@ fall below that number, and the (100-level) percent are above.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 13.
 ```python
@@ -184,7 +184,7 @@ Computes & Returns the Conditional VaR of a Series or DataFrame.
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 14.
 ```python
@@ -196,7 +196,7 @@ Computes & Returns the Parametric Gauusian VaR of a Series or DataFrame
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 15.
 ```python
@@ -208,7 +208,7 @@ The VaR is returned using the Cornish-Fisher modification
 ### Parameters
 dataset - Name of the dataset you imported.
 
-
+--------------------------------------------------------------------
 
 ### 16.
 ```python
