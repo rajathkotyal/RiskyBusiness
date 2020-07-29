@@ -29,10 +29,10 @@ rb.FunctionName(dataset = Your_Dataset)
 ```
 > Make sure the dataset is loaded using pandas with the necessary columns.
 
-A sample program using all the functions is displayed in risky.ipynb
+- A sample program using all the functions is displayed in risky.ipynb
 > Open using Jupyter NB or Google Colab
 
-This file contains the output samples of all the functions present in the library.
+- This file contains the output samples of all the functions present in the library.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
