@@ -19,7 +19,7 @@ import riskybusiness as rb
 
 ### Important :
 1) Make sure the dataset is imported with pandas.
-2) There are NaN values present (tip : use the dropna() function*)
+2) There are no NaN values present (tip : use the dropna() function)
 3) Specify the required columns during/after import but BEFORE running the functions.
 
 ## List of Functions available in the Risky Business Library :
