@@ -102,7 +102,7 @@ dataset - Name of the dataset you imported.
 rb.sharpe(dataset,riskfree_rate):
 ```
 ### Description
-Returns the Annualized returns of each column in a Monthly Dataset.
+Returns the Sharpe Ratio along with monthly & annual returns.
 
 ### Parameters
 dataset - Name of the dataset you imported.
