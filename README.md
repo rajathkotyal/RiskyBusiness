@@ -1,5 +1,7 @@
 # Analyse the risk of a business using Risky Business
 
+[![Downloads](https://static.pepy.tech/badge/riskybusiness)](https://pepy.tech/project/riskybusiness)
+
 ## Functions :
 1. Sharpe Ratio
 2. Returns & Volatility
