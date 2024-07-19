@@ -1,8 +1,10 @@
 # Analyse the risk of a business using Risky Business
 
 Links :
-(PyPi) [https://pypi.org/project/riskybusiness/]
-(Stats)[https://www.pepy.tech/projects/riskybusiness?versions=0.0.1&versions=0.0.2]
+
+- [PyPi - To download](https://pypi.org/project/riskybusiness/)
+
+- [Stats](https://www.pepy.tech/projects/riskybusiness?versions=0.0.1&versions=0.0.2)
 
 ## Functions :
 1. Sharpe Ratio
